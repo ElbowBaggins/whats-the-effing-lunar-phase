@@ -5,6 +5,8 @@
 
 body {
   background-image: asset-data-url('stardust.png');
+  height: 100vh;
+  margin: 0;
 }
 
 .lunarPhase {
@@ -31,6 +33,7 @@ body {
 .lunarPhase.exclamation {
   color: #F9DF8D;
   font-size: 1.35cm;
+  padding-top: 50px;
 
   animation-delay: 0.7s;
 

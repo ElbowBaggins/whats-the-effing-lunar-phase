@@ -1,4 +1,4 @@
-<html>
+<html lang="en-US">
     <head>
         <title>What's the fucking lunar phase?</title>
     </head>
@@ -12,10 +12,10 @@
         </div>
 
         <div class="lunarPhase name">
-          <h3><%= @lunarPhase %></h3>
+          <h3><%= @lunar_phase %></h3>
         </div>
 
-        <img class="lunarPhase icon" src='<%= asset_path @iconName %>'/>
+        <img class="lunarPhase icon" src='<%= asset_path @icon_name %>' alt='<%= @icon_name %>'/>
 
         <div id="quote">
           <%= raw @quote %>
